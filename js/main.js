@@ -3,8 +3,12 @@
  * Plain vanilla JS (no jQuery).
  */
 
-// Detect the language from the browser (it / en). No manual switcher.
-var LOCALE = ((navigator.language || navigator.userLanguage || 'en').toLowerCase().indexOf('it') === 0) ? 'it' : 'en';
+// Language (it / en): saved preference first, then browser, defaulting to 'en'.
+var SAVED_LOCALE = null;
+try { SAVED_LOCALE = localStorage.getItem('locale'); } catch (e) { /* storage unavailable */ }
+var LOCALE = (SAVED_LOCALE === 'it' || SAVED_LOCALE === 'en')
+	? SAVED_LOCALE
+	: (((navigator.language || navigator.userLanguage || 'en').toLowerCase().indexOf('it') === 0) ? 'it' : 'en');
 
 // Contact form delivery service (no backend needed on our side).
 var FORM_ENDPOINT = 'https://formsubmit.co/ajax/makebitcake@gmail.com';
@@ -31,6 +35,30 @@ function localize() {
 
 document.addEventListener('DOMContentLoaded', function () {
 	localize();
+
+	// --- Language switcher (EN / IT) ---
+	var langButtons = document.querySelectorAll('.lang-btn');
+
+	function updateLangButtons() {
+		langButtons.forEach(function (btn) {
+			var active = btn.getAttribute('data-lang') === LOCALE;
+			btn.classList.toggle('active', active);
+			btn.setAttribute('aria-pressed', active ? 'true' : 'false');
+		});
+	}
+
+	langButtons.forEach(function (btn) {
+		btn.addEventListener('click', function () {
+			var lang = btn.getAttribute('data-lang');
+			if (lang === LOCALE) { return; }
+			LOCALE = lang;
+			try { localStorage.setItem('locale', LOCALE); } catch (e) { /* storage unavailable */ }
+			localize();
+			updateLangButtons();
+		});
+	});
+
+	updateLangButtons();
 
 	var reducedMotion = window.matchMedia('(prefers-reduced-motion: reduce)').matches;
 

@@ -5,7 +5,7 @@
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 
-	<title>Makebit · Custom Software, Web &amp; App Development in Verbania</title>
+	<title>Makebit · Software, Web &amp; App Development in Verbania</title>
 	<meta name="description" content="Makebit is an independent software studio in Verbania, Italy, building custom websites, mobile and desktop apps, cloud applications and open source software for clients worldwide.">
 	<meta name="author" content="Makebit">
 	<meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1">
@@ -20,7 +20,7 @@
 	<!-- Open Graph -->
 	<meta property="og:type" content="website">
 	<meta property="og:site_name" content="Makebit">
-	<meta property="og:title" content="Makebit · Custom Software, Web &amp; App Development">
+	<meta property="og:title" content="Makebit · Software, Web &amp; App Development">
 	<meta property="og:description" content="Independent software studio in Verbania, Italy. Custom websites, mobile and desktop apps, cloud applications and open source software.">
 	<meta property="og:url" content="https://makeb.it/">
 	<meta property="og:image" content="https://makeb.it/assets/img/makebit.png">
@@ -30,7 +30,7 @@
 
 	<!-- Twitter -->
 	<meta name="twitter:card" content="summary">
-	<meta name="twitter:title" content="Makebit · Custom Software, Web &amp; App Development">
+	<meta name="twitter:title" content="Makebit · Software, Web &amp; App Development">
 	<meta name="twitter:description" content="Independent software studio in Verbania, Italy. Custom websites, mobile and desktop apps, cloud applications and open source software.">
 	<meta name="twitter:image" content="https://makeb.it/assets/img/makebit.png">
 	<meta name="twitter:image:alt" content="Makebit logo">
@@ -128,6 +128,11 @@
 				<li><a href="#portfolio"><l en="Portfolio" it="Portfolio"></l></a></li>
 				<li><a href="#callout"><l en="Contact" it="Contatti"></l></a></li>
 				<li><a href="#map"><l en="Where" it="Dove"></l></a></li>
+				<li class="navbar__lang" role="group" aria-label="Language">
+					<button type="button" class="lang-btn" data-lang="en" aria-pressed="false">EN</button>
+					<span class="lang-sep" aria-hidden="true">/</span>
+					<button type="button" class="lang-btn" data-lang="it" aria-pressed="false">IT</button>
+				</li>
 			</ul>
 		</div>
 	</nav>
@@ -140,10 +145,9 @@
 		<span class="hero__bit hero__bit--4" aria-hidden="true"></span>
 		<div class="hero__inner">
 			<img class="hero__logo" src="/assets/img/makebit.png" alt="Makebit — software development studio in Verbania, Italy" fetchpriority="high" width="270" height="270">
-			<h1><l en='<span class="accent">Making</span> every <span class="accent">bit</span> count'
-				it='Valore a ogni <span class="accent">bit</span>'><span class="accent">Making</span> every <span class="accent">bit</span> count</l></h1>
-			<p class="hero__tagline"><l en="Independent software development, open source at heart. <br> Websites, apps and software for your projects, crafted in Verbania, Italy."
-				it="Sviluppo software indipendente, open source nel cuore. <br> Siti, app e software per i tuoi progetti, crafted in Verbania.">Independent software development, open source at heart. <br> Websites, apps and software for your projects, crafted in Verbania, Italy.</l></p>
+			<h1>Making every <span class="accent">bit</span> count</h1>
+			<p class="hero__tagline"><l en="Custom Software. Open Source. Built with Care. <br> Custom applications, backend, integrations, and open-source solutions crafted with a focus on performance, maintainability, and long-term value."
+				it="Custom software. Open Source. Realizzato con cura. <br> Applicazioni personalizzate, sistemi backend, integrazioni e soluzioni open-source realizzate con un focus su prestazioni e valore a lungo termine."></l></p>
 			<div class="hero__cta">
 				<a href="#services" class="btn btn-primary"><l en="Services" it="Servizi"></l> &#8659;</a>
 				<a href="#portfolio" class="btn btn-white"><l en="Portfolio" it="Portfolio"></l></a>
@@ -156,16 +160,16 @@
 		<div class="container">
 			<div class="section-head reveal">
 				<span class="eyebrow"><l en="Services" it="Servizi"></l></span>
-				<h2><l en="Makebit Services" it="Servizi">Makebit Services</l></h2>
-				<p><l en="Experience, applied to your project."
-					it="Esperienza applicata al tuo progetto."></l></p>
+				<h2><l en="What we Do" it="Cosa facciamo">What we Do</l></h2>
+				<p><l en="Experience dedicated to your project, turning complex ideas into concrete, scalable, and reliable solutions."
+					it="Esperienza messa al servizio del tuo progetto, per trasformare idee complesse in soluzioni concrete, scalabili e affidabili."></l></p>
 			</div>
 			<div class="grid grid--services">
 				<div class="service-card reveal" style="--c:#22b8cf">
 					<span class="service-card__icon" style="--c:#22b8cf"><i class="fa-solid fa-cloud"></i></span>
 					<h3><l en="Cloud Applications" it="Applicazioni Cloud"></l></h3>
 					<p><l en="Scalable web, cloud applications, microservices, APIs and backends engineered for performance and reliability. From architecture to deployment and monitoring, server-side systems built to grow with your product."
-						it="Applicazioni web e cloud scalabili, microservizi, APIs e backend progettati per prestazioni e affidabilità. Dall'architettura al deploy e al monitoraggio, sistemi server-side costruiti per crescere con il tuo prodotto."></l></p>
+						it="Applicazioni web e cloud scalabili, microservizi, API e backend progettati per prestazioni e affidabilità. Dall'architettura al deploy e al monitoraggio, sistemi server-side costruiti per crescere con il tuo prodotto."></l></p>
 					<div class="chips" aria-hidden="true">
 						<span class="chip">APIs</span>
 						<span class="chip">backend</span>
@@ -176,7 +180,7 @@
 					<span class="service-card__icon" style="--c:#FF6961"><i class="fa-solid fa-code"></i></span>
 					<h3><l en="Websites" it="Siti Web"></l></h3>
 					<p><l en="Responsive websites built with modern HTML, CSS and JavaScript, plus WordPress sites with custom themes and plugins. Fast, accessible and easy to update, designed to look great on every screen and to be found on search engines."
-						it="Siti web responsive realizzati con HTML, CSS e JavaScript moderni, oltre a siti WordPress con temi e plugin su misura. Veloci, accessibili e facili da aggiornare, pensati per rendere su ogni schermo e farsi trovare sui motori di ricerca."></l></p>
+						it="Siti web responsive realizzati con HTML, CSS e JavaScript moderni, oltre a siti WordPress con temi e plugin su misura. Veloci, accessibili e facili da aggiornare, pensati per essere visualizzati su ogni schermo e farsi trovare sui motori di ricerca."></l></p>
 					<div class="chips" aria-hidden="true">
 						<span class="chip">development</span>
 						<span class="chip">responsive</span>
@@ -208,8 +212,8 @@
 				<div class="service-card reveal" style="--c:#51cf66">
 					<span class="service-card__icon" style="--c:#51cf66"><i class="fa-solid fa-headset"></i></span>
 					<h3><l en="Consulting &amp; Support" it="Consulenza &amp; Assistenza"></l></h3>
-					<p><l en="Tailored technical consulting and ongoing support to keep your products running smoothly. Code reviews, architecture audits, fixes for what breaks and guidance to make the right technical choices before they get expensive."
-						it="Consulenza tecnica su misura e assistenza continuativa per mantenere i tuoi prodotti sempre efficienti. Revisione del codice, verifica delle architetture, riparazione di ciò che si rompe e supporto per fare le scelte giuste prima che diventino costose."></l></p>
+					<p><l en="Tailored technical consulting and ongoing support to keep your products running smoothly. Code reviews, architecture audits, fixes, and guidance to make the right technical choices before they get expensive."
+						it="Consulenza tecnica su misura e assistenza continuativa per mantenere i tuoi prodotti sempre efficienti. Revisione del codice, verifica delle architetture, fix, e supporto per fare le scelte giuste prima che diventino costose."></l></p>
 					<div class="chips" aria-hidden="true">
 						<span class="chip">consulting</span>
 						<span class="chip">maintenance</span>
@@ -237,8 +241,8 @@
 			<div class="section-head reveal">
 				<span class="eyebrow"><l en="Workflow" it="Workflow"></l></span>
 				<h2><l en="On your side" it="Al tuo fianco">On your side</l></h2>
-				<p><l en="Makebit builds open source software by passion and client projects by profession<br>Every project starts from your needs: listening first, then the right solution, found together."
-					it="Makebit costruisce software open source per passione e progetti per i clienti per professione<br>Ogni progetto parte dalle tue esigenze: prima l'ascolto, poi la soluzione giusta, trovata insieme."></l></p>
+				<p><l en="Makebit builds open source software by passion and client projects by profession. Every project starts from your needs: listening first, then the right solution, found together."
+					it="Makebit costruisce software open source per passione e progetti per i clienti per professione. Ogni progetto parte dalle tue esigenze: prima l'ascolto, poi la soluzione giusta, trovata insieme."></l></p>
 			</div>
 			<div class="pillars">
 				<div class="pillar reveal">
@@ -249,8 +253,8 @@
 				</div>
 				<div class="pillar reveal">
 					<span class="pillar__num">02 /</span>
-					<h3><l en="Direct, no middlemen" it="Diretto, senza intermediari"></l></h3>
-					<p><l en="You always talk directly with who writes the code. Options are proposed, trade-offs explained in plain words, and the solution takes shape with you, step by step."
+					<h3><l en="Direct, no middlemen" it="Senza intermediari"></l></h3>
+					<p><l en="You always talk directly with the people who write the code. We propose options, explain the trade-offs in plain words, and shape the solution with you, step by step."
 						it="Parli sempre direttamente con chi scrive il codice. Vengono proposte opzioni, spiegati pro e contro con parole semplici, e la soluzione prende forma con te, passo dopo passo."></l></p>
 				</div>
 				<div class="pillar reveal">
@@ -274,8 +278,10 @@
 					<span class="stat__label"><l en="app installs" it="installazioni delle app"></l></span>
 				</div>
 			</div>
-			<p class="location-line reveal"><i class="fa-solid fa-location-dot"></i> <l en="based in Verbania, Italy - working with clients everywhere"
-				it="con base a Verbania - al lavoro con clienti ovunque"></l></p>
+			<p class="location-line reveal">
+				<i class="fa-solid fa-location-dot"></i>
+				<l en="based in Verbania, Italy" it="con base a Verbania"></l>
+			</p>
 		</div>
 	</section>
 
@@ -301,7 +307,7 @@
 						<h3 class="work-card__title"><a class="work-card__title-link" href="http://www.archinetwork.it/" target="_blank" rel="noopener">archinetwork.it</a></h3>
 						<ul>
 							<li>site developed from a custom design</li>
-							<li>wordpress site, personalized on the client needs</li>
+							<li>WordPress site, tailored to the client's needs</li>
 							<li>custom plugins to manage articles and magazines</li>
 						</ul>
 					</div>
@@ -356,7 +362,7 @@
 						<ul>
 							<li>web app to create flipbooks from PDF files</li>
 							<li>uploads a PDF, processes it and generates a shareable link to the flipbook</li>
-							<li>customized on the client needs</li>
+							<li>tailored to the client's needs</li>
 							<li>written in ReactJS, hosted on VPS</li>
 							<li>JS backend for handling API requests and document processing</li>
 						</ul>
@@ -394,8 +400,8 @@
 						</div>
 						<h3 class="work-card__title"><a class="work-card__title-link" href="#" target="_blank" rel="noopener">Images Resizer</a></h3>
 						<ul>
-							<li>an images resizer made with NW.js</li>
-							<li>deployable on all OSs</li>
+							<li>an image resizer built with NW.js</li>
+							<li>deployable on all operating systems</li>
 						</ul>
 					</div>
 				</article>
@@ -432,8 +438,8 @@
 						</div>
 						<h3 class="work-card__title"><a class="work-card__title-link" href="http://www.contractnetwork.it/" target="_blank" rel="noopener">contractnetwork.it</a></h3>
 						<ul>
-							<li>site developed from a given custom design</li>
-							<li>wordpress site, personalized on the client needs</li>
+							<li>site developed from a custom design</li>
+							<li>WordPress site, tailored to the client's needs</li>
 							<li>custom plugins to manage articles and magazines</li>
 							<li>connection with the newsletter service</li>
 						</ul>
@@ -451,7 +457,7 @@
 						<h3 class="work-card__title"><a class="work-card__title-link" href="http://ceciliabaroni.it/" target="_blank" rel="noopener">ceciliabaroni.it</a></h3>
 						<ul>
 							<li>portfolio site</li>
-							<li>personalized on the client needs</li>
+							<li>tailored to the client's needs</li>
 						</ul>
 					</div>
 				</article>
@@ -467,11 +473,11 @@
 						</div>
 						<h3 class="work-card__title"><a class="work-card__title-link" href="https://github.com/makebit/FilterssApp" target="_blank" rel="noopener">Filterss</a></h3>
 						<ul>
-							<li>native Android app to read RSS feeds with filtering, rating, online / offline mode</li>
-							<li>development of the app code and API backend</li>
+							<li>native Android app to read RSS feeds, with filtering, rating and online / offline mode</li>
+							<li>development of the app and the API backend</li>
 							<li>app icon, design and showcase video</li>
 							<li>API written with ExpressJS (NodeJS), hosted on VPS</li>
-							<li>not more maintained</li>
+							<li>no longer maintained</li>
 						</ul>
 					</div>
 				</article>
@@ -505,8 +511,8 @@
 						</div>
 						<h3 class="work-card__title"><a class="work-card__title-link" href="http://www.guestmagazine.it/" target="_blank" rel="noopener">guestmagazine.it</a></h3>
 						<ul>
-							<li>site developed from a given custom design</li>
-							<li>wordpress site, personalized on the client needs</li>
+							<li>site developed from a custom design</li>
+							<li>WordPress site, tailored to the client's needs</li>
 							<li>custom plugins to manage articles and magazines</li>
 							<li>connection with the newsletter service</li>
 						</ul>
@@ -523,7 +529,7 @@
 						</div>
 						<h3 class="work-card__title"><a class="work-card__title-link" href="https://telegram.me/AreeCamperECampeggiBot" target="_blank" rel="noopener">AreeCamper&amp;Campeggi</a></h3>
 						<ul>
-							<li>finds parking areas and camping for campers and RV vehicles</li>
+							<li>finds parking and camping areas for campers and RVs</li>
 							<li>written in Python, hosted on Heroku</li>
 							<li><a href="https://telegram.me/AreeCamperECampeggiBot">try the bot</a></li>
 						</ul>
@@ -541,10 +547,10 @@
 						</div>
 						<h3 class="work-card__title"><a class="work-card__title-link" href="http://vagamondo.com" target="_blank" rel="noopener">vagamondo.com</a></h3>
 						<ul>
-							<li>developed and personalized on the client needs</li>
-							<li>wordpress site, custom theme &amp; plugins</li>
-							<li>custom code to compute the rent price, multilanguage</li>
-							<li>not more maintained</li>
+							<li>developed and tailored to the client's needs</li>
+							<li>WordPress site, custom theme &amp; plugins</li>
+							<li>custom code to compute the rental price, multilingual</li>
+							<li>no longer maintained</li>
 						</ul>
 					</div>
 				</article>
@@ -559,9 +565,9 @@
 						</div>
 						<h3 class="work-card__title"><a class="work-card__title-link" href="http://vagamondo.com" target="_blank" rel="noopener">adven.it</a></h3>
 						<ul>
-							<li>site developed and personalized on the client needs</li>
-							<li>wordpress site</li>
-							<li>not more maintained</li>
+							<li>site developed and tailored to the client's needs</li>
+							<li>WordPress site</li>
+							<li>no longer maintained</li>
 						</ul>
 					</div>
 				</article>
@@ -578,7 +584,7 @@
 						<h3 class="work-card__title"><a class="work-card__title-link" href="https://play.google.com/store/apps/details?id=com.makebitapps.canzoniere" target="_blank" rel="noopener">Canzoniere</a></h3>
 						<ul>
 							<li>more than 50.000 installations</li>
-							<li>Ionic application (cross platform)</li>
+							<li>Ionic application (cross-platform)</li>
 						</ul>
 					</div>
 				</article>
@@ -594,8 +600,8 @@
 						<h3 class="work-card__title">hotelmag.it</h3>
 						<ul>
 							<li>development of the site and the template</li>
-							<li>wordpress site, custom theme &amp; plugins</li>
-							<li>not more maintained</li>
+							<li>WordPress site, custom theme &amp; plugins</li>
+							<li>no longer maintained</li>
 						</ul>
 					</div>
 				</article>
@@ -618,7 +624,24 @@
 					</div>
 				</article>
 
-				<article class="work-card reveal" style="--c:#2f9e44">
+				<article class="work-card reveal" style="--c:#1c7ed6">
+					<a class="work-card__media" href="https://github.com/makebit/Neopixel-Ring-LED-Sequences-and-Animations-Maker" target="_blank" rel="noopener">
+						<img loading="lazy" decoding="async" src="/assets/img/works/ledsy.jpg" alt="LEDSY">
+					</a>
+					<div class="work-card__body">
+						<div class="work-card__tags">
+							<span class="work-card__tag">JavaScript App</span>
+							<span class="work-card__tag work-card__tag--oss">Open source</span>
+						</div>
+						<h3 class="work-card__title"><a class="work-card__title-link" href="https://github.com/makebit/Neopixel-Ring-LED-Sequences-and-Animations-Maker" target="_blank" rel="noopener">LEDSY</a></h3>
+						<ul>
+							<li>jQuery application used to create LED sequences &amp; animations, used with Arduino</li>
+							<li><a href="https://github.com/makebit/Neopixel-Ring-LED-Sequences-and-Animations-Maker">open source</a></li>
+						</ul>
+					</div>
+				</article>
+
+				<!-- <article class="work-card reveal" style="--c:#2f9e44">
 					<a class="work-card__media" href="https://play.google.com/store/apps/details?id=com.makebitapps.remotecontrolforslides" target="_blank" rel="noopener">
 						<img loading="lazy" decoding="async" src="/assets/img/works/telecomando-presentazioni.jpg" alt="Telecomando Presentazioni">
 					</a>
@@ -629,7 +652,7 @@
 						<h3 class="work-card__title"><a class="work-card__title-link" href="https://play.google.com/store/apps/details?id=com.makebitapps.remotecontrolforslides" target="_blank" rel="noopener">Telecomando Presentazioni</a></h3>
 						<ul>
 							<li>Android app used as a remote controller for slides</li>
-							<li>multiplatform Java server developed</li>
+							<li>cross-platform Java server</li>
 							<li><a href="https://makeb.it/static/telecomando-presentazioni/en/">tutorial</a></li>
 						</ul>
 					</div>
@@ -637,14 +660,14 @@
 
 				<article class="work-card reveal" style="--c:#da2723">
 					<a class="work-card__media" href="#" target="_blank" rel="noopener">
-						<img loading="lazy" decoding="async" src="/assets/img/works/youtubetomp3.jpg" alt="Youtube to Mp3">
+						<img loading="lazy" decoding="async" src="/assets/img/works/youtubetomp3.jpg" alt="YouTube to MP3">
 					</a>
 					<div class="work-card__body">
 						<div class="work-card__tags">
 							<span class="work-card__tag">Android App</span>
 							<span class="work-card__tag work-card__tag--oss">Open source</span>
 						</div>
-						<h3 class="work-card__title">Youtube to Mp3</h3>
+						<h3 class="work-card__title">YouTube to MP3</h3>
 						<ul>
 							<li>Android native application</li>
 							<li>works with yt-download.org</li>
@@ -664,7 +687,7 @@
 						<h3 class="work-card__title"><a class="work-card__title-link" href="http://www.vagamondo.com/preventivo/" target="_blank" rel="noopener">Vagamondo Preventivo</a></h3>
 						<ul>
 							<li>online application used to compute rental prices</li>
-							<li>not more maintained</li>
+							<li>no longer maintained</li>
 						</ul>
 					</div>
 				</article>
@@ -680,7 +703,7 @@
 						<h3 class="work-card__title">F-AllDebrid</h3>
 						<ul>
 							<li>Firefox plugin to use the AllDebrid service</li>
-							<li>not more maintained</li>
+							<li>no longer maintained</li>
 						</ul>
 					</div>
 				</article>
@@ -695,8 +718,8 @@
 						</div>
 						<h3 class="work-card__title">sooftware.it</h3>
 						<ul>
-							<li>wordpress blog about software: theory, concepts, strategies and tricks</li>
-							<li>not more maintained</li>
+							<li>WordPress blog about software: theory, concepts, strategies and tricks</li>
+							<li>no longer maintained</li>
 						</ul>
 					</div>
 				</article>
@@ -712,27 +735,10 @@
 						<h3 class="work-card__title">Amenoblues</h3>
 						<ul>
 							<li>site developed from a standard template</li>
-							<li>wordpress site, customized theme</li>
+							<li>WordPress site, customized theme</li>
 						</ul>
 					</div>
-				</article>
-
-				<article class="work-card reveal" style="--c:#1c7ed6">
-					<a class="work-card__media" href="https://github.com/makebit/Neopixel-Ring-LED-Sequences-and-Animations-Maker" target="_blank" rel="noopener">
-						<img loading="lazy" decoding="async" src="/assets/img/works/ledsy.jpg" alt="LEDSY">
-					</a>
-					<div class="work-card__body">
-						<div class="work-card__tags">
-							<span class="work-card__tag">Javascript App</span>
-							<span class="work-card__tag work-card__tag--oss">Open source</span>
-						</div>
-						<h3 class="work-card__title"><a class="work-card__title-link" href="https://github.com/makebit/Neopixel-Ring-LED-Sequences-and-Animations-Maker" target="_blank" rel="noopener">LEDSY</a></h3>
-						<ul>
-							<li>jQuery application used to create LED sequences &amp; animations, used with Arduino</li>
-							<li><a href="https://github.com/makebit/Neopixel-Ring-LED-Sequences-and-Animations-Maker">open source</a></li>
-						</ul>
-					</div>
-				</article>
+				</article> -->
 
 			</div>
 
@@ -748,16 +754,16 @@
 	<section id="callout" class="section section--alt">
 		<div class="container">
 			<form role="form" id="form-mail" class="contact-card reveal">
-				<h3><l en="Get in touch" it="Mettiti in contatto"></l></h3>
-				<p class="sub"><l en="Write for any information or a quote" it="Scrivi per qualsiasi informazione o preventivo"></l></p>
+				<h3><l en="Get in touch" it="Contatto"></l></h3>
+				<p class="sub"><l en="Write to us for any information or a quote" it="Scrivici per qualsiasi informazione o per un preventivo"></l></p>
 
 				<div class="alert alert-success" id="mail-success" style="display: none">
 					<l en="<strong>Message sent.</strong> You will get a reply in a moment!"
 						it="<strong>Messaggio inviato.</strong> Riceverai una risposta in un attimo!"></l>
 				</div>
 				<div class="alert alert-danger" id="mail-error" style="display: none">
-					<l en="<strong>Cannot send.</strong> Please check that mail, subject and text are present."
-						it="<strong>Impossibile inviare.</strong> Controlla che mail, soggetto e testo siano presenti."></l>
+					<l en="<strong>Cannot send.</strong> Please make sure the email, subject and message are filled in."
+						it="<strong>Impossibile inviare.</strong> Controlla che email, oggetto e messaggio siano compilati."></l>
 				</div>
 				<div class="alert alert-danger" id="mail-error-net" style="display: none">
 					<l en="<strong>Something went wrong.</strong> Please write directly to: makebitcake@gmail.com"
@@ -771,7 +777,7 @@
 					<input type="email" id="email" name="email" en="Email" it="Email" required>
 				</div>
 				<div class="field">
-					<input type="text" id="subject" name="subject" en="Subject" it="Soggetto" required>
+					<input type="text" id="subject" name="subject" en="Subject" it="Oggetto" required>
 				</div>
 				<div class="field">
 					<textarea id="message" name="message" en="Message" it="Messaggio" rows="7"></textarea>
@@ -792,10 +798,11 @@
 			<a href="https://righthemisphere.it/" target="_blank" rel="noopener">
 				<img class="banner__logo" loading="lazy" decoding="async" src="/assets/img/Right_Hemipshere_Logo.jpg" alt="Right Hemisphere">
 			</a>
-			<h2><l en="Need video or photo for your website?" it="Ti serve un video o delle foto per il tuo sito?"></l></h2>
-			<p><l en="Together with Right Hemisphere, Makebit also offers photo and video production - check it out!" it="Insieme a Right Hemisphere, Makebit offre anche la realizzazione di video e foto!"></l></p>
-			<a href="https://righthemisphere.it/" class="btn btn-white" target="_blank" rel="noopener">
-				<i class="fa-solid fa-circle-info"></i> <l en="More" it="Info"></l>
+			<h2><l en="Video &amp; photo, crafted by hand" it="Video e foto, creati a mano"></l></h2>
+			<p><l en="Right Hemisphere is a creative studio for photo and video. Every frame is shot and crafted by real people - no stock libraries, no AI-generated filler - to give your brand visuals with genuine character."
+				it="Right Hemisphere è uno studio creativo per foto e video. Ogni fotogramma è girato e curato da persone reali - niente stock footage, niente contenuti generati dall'AI - per dare al tuo brand immagini dal carattere autentico."></l></p>
+			<a href="https://rhvideo.it/" class="btn btn-white" target="_blank" rel="noopener">
+				<i class="fa-solid fa-camera"></i> <l en="Discover the studio" it="Scopri lo studio"></l>
 			</a>
 		</div>
 	</section>
@@ -806,14 +813,14 @@
 			<span class="eyebrow"><l en="Let's build together" it="Costruiamo insieme"></l></span>
 			<h2><l en="Open to collaborations"
 				it="Collaborazioni"></l></h2>
-			<p><l en="Got an idea, a side project, or a startup looking for a technical hand? I'm open to teaming up with founders, creators and other makers. Let's turn your idea into something real, together."
-				it="Hai un'idea, un progetto o una startup che cerca una mano tecnica? Sono disponibile a fare squadra con founder, creativi e altri maker. Trasformiamola in qualcosa di reale insieme."></l></p>
+			<p><l en="Got an idea, a side project, or a startup looking for a technical hand? Let's turn your idea into a real product, together."
+				it="Hai un'idea, un progetto o una startup e cerchi una mano? Trasformiamola in un prodotto reale insieme."></l></p>
 
 			<ul class="banner__chips">
 				<li><i class="fa-solid fa-handshake"></i> <l en="Partnerships" it="Partnership"></l></li>
 				<li><i class="fa-solid fa-rocket"></i> <l en="Startups" it="Startup"></l></li>
 				<li><i class="fa-brands fa-osi"></i> <l en="Open source" it="Open source"></l></li>
-				<li><i class="fa-solid fa-lightbulb"></i> <l en="Side projects" it="Progetti collaterali"></l></li>
+				<li><i class="fa-solid fa-lightbulb"></i> <l en="Side projects" it="Side projects"></l></li>
 			</ul>
 
 			<div class="banner__cta">
