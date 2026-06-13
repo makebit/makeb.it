@@ -1,0 +1,854 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+
+	<title>Makebit · Custom Software, Web &amp; App Development in Verbania</title>
+	<meta name="description" content="Makebit is an independent software studio in Verbania, Italy, building custom websites, mobile and desktop apps, cloud applications and open source software for clients worldwide.">
+	<meta name="author" content="Makebit">
+	<meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1">
+	<meta name="theme-color" content="#ffffff">
+
+	<link rel="canonical" href="https://makeb.it/">
+
+	<!-- Favicons -->
+	<link rel="icon" href="/assets/img/makebit.png" type="image/png">
+	<link rel="apple-touch-icon" href="/assets/img/makebit.png">
+
+	<!-- Open Graph -->
+	<meta property="og:type" content="website">
+	<meta property="og:site_name" content="Makebit">
+	<meta property="og:title" content="Makebit · Custom Software, Web &amp; App Development">
+	<meta property="og:description" content="Independent software studio in Verbania, Italy. Custom websites, mobile and desktop apps, cloud applications and open source software.">
+	<meta property="og:url" content="https://makeb.it/">
+	<meta property="og:image" content="https://makeb.it/assets/img/makebit.png">
+	<meta property="og:image:alt" content="Makebit logo">
+	<meta property="og:locale" content="en_US">
+	<meta property="og:locale:alternate" content="it_IT">
+
+	<!-- Twitter -->
+	<meta name="twitter:card" content="summary">
+	<meta name="twitter:title" content="Makebit · Custom Software, Web &amp; App Development">
+	<meta name="twitter:description" content="Independent software studio in Verbania, Italy. Custom websites, mobile and desktop apps, cloud applications and open source software.">
+	<meta name="twitter:image" content="https://makeb.it/assets/img/makebit.png">
+	<meta name="twitter:image:alt" content="Makebit logo">
+
+	<!-- Font Awesome 6 -->
+	<link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" rel="stylesheet"
+		crossorigin="anonymous" referrerpolicy="no-referrer">
+
+	<!-- Fonts -->
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=JetBrains+Mono:wght@400;600;700&display=swap" rel="stylesheet">
+
+	<!-- Site styles -->
+	<link href="/css/main.css" rel="stylesheet">
+
+	<!-- Structured data -->
+	<script type="application/ld+json">
+		{
+			"@context": "https://schema.org",
+			"@graph": [
+				{
+					"@type": ["Organization", "ProfessionalService"],
+					"@id": "https://makeb.it/#organization",
+					"name": "Makebit",
+					"alternateName": "makeb.it",
+					"url": "https://makeb.it/",
+					"logo": "https://makeb.it/assets/img/makebit.png",
+					"image": "https://makeb.it/assets/img/makebit.png",
+					"email": "makebitcake@gmail.com",
+					"description": "Independent software studio in Verbania, Italy. Custom websites, mobile and desktop apps, cloud applications and open source software.",
+					"foundingDate": "2017",
+					"knowsAbout": [
+						"Web development",
+						"Mobile app development",
+						"Cloud applications",
+						"Open source software",
+						"WordPress",
+						"Android development",
+						"AI and LLM integration"
+					],
+					"address": {
+						"@type": "PostalAddress",
+						"addressLocality": "Verbania",
+						"addressRegion": "VB",
+						"addressCountry": "IT"
+					},
+					"areaServed": "Worldwide",
+					"sameAs": [
+						"https://github.com/makebit"
+					],
+					"contactPoint": [{
+						"@type": "ContactPoint",
+						"email": "makebitcake@gmail.com",
+						"contactType": "customer support",
+						"availableLanguage": ["en", "it"]
+					}],
+					"hasOfferCatalog": {
+						"@type": "OfferCatalog",
+						"name": "Services",
+						"itemListElement": [
+							{ "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Cloud Applications" } },
+							{ "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Websites" } },
+							{ "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Mobile & Desktop Apps" } },
+							{ "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Design & Video" } },
+							{ "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Consulting & Support" } },
+							{ "@type": "Offer", "itemOffered": { "@type": "Service", "name": "AI Solutions" } }
+						]
+					}
+				},
+				{
+					"@type": "WebSite",
+					"@id": "https://makeb.it/#website",
+					"url": "https://makeb.it/",
+					"name": "Makebit",
+					"inLanguage": ["en", "it"],
+					"publisher": { "@id": "https://makeb.it/#organization" }
+				}
+			]
+		}
+	</script>
+</head>
+
+<body>
+	<!-- Navbar -->
+	<nav class="navbar" id="navbar">
+		<div class="container">
+			<a href="#top" class="navbar__brand">makebit</a>
+			<button class="navbar__toggle" id="nav-toggle" aria-label="Menu" aria-expanded="false">
+				<i class="fa-solid fa-bars"></i>
+			</button>
+			<ul class="navbar__links" id="nav-links">
+				<li><a href="#services"><l en="Services" it="Servizi"></l></a></li>
+				<li><a href="#workflow"><l en="Workflow" it="Workflow"></l></a></li>
+				<li><a href="#portfolio"><l en="Portfolio" it="Portfolio"></l></a></li>
+				<li><a href="#callout"><l en="Contact" it="Contatti"></l></a></li>
+				<li><a href="#map"><l en="Where" it="Dove"></l></a></li>
+			</ul>
+		</div>
+	</nav>
+
+	<!-- Hero -->
+	<header id="top" class="hero">
+		<span class="hero__bit hero__bit--1" aria-hidden="true"></span>
+		<span class="hero__bit hero__bit--2" aria-hidden="true"></span>
+		<span class="hero__bit hero__bit--3" aria-hidden="true"></span>
+		<span class="hero__bit hero__bit--4" aria-hidden="true"></span>
+		<div class="hero__inner">
+			<img class="hero__logo" src="/assets/img/makebit.png" alt="Makebit — software development studio in Verbania, Italy" fetchpriority="high" width="270" height="270">
+			<h1><l en='<span class="accent">Making</span> every <span class="accent">bit</span> count'
+				it='Valore a ogni <span class="accent">bit</span>'><span class="accent">Making</span> every <span class="accent">bit</span> count</l></h1>
+			<p class="hero__tagline"><l en="Independent software development, open source at heart. <br> Websites, apps and software for your projects, crafted in Verbania, Italy."
+				it="Sviluppo software indipendente, open source nel cuore. <br> Siti, app e software per i tuoi progetti, crafted in Verbania.">Independent software development, open source at heart. <br> Websites, apps and software for your projects, crafted in Verbania, Italy.</l></p>
+			<div class="hero__cta">
+				<a href="#services" class="btn btn-primary"><l en="Services" it="Servizi"></l> &#8659;</a>
+				<a href="#portfolio" class="btn btn-white"><l en="Portfolio" it="Portfolio"></l></a>
+			</div>
+		</div>
+	</header>
+
+	<!-- Services -->
+	<section id="services" class="section">
+		<div class="container">
+			<div class="section-head reveal">
+				<span class="eyebrow"><l en="Services" it="Servizi"></l></span>
+				<h2><l en="Makebit Services" it="Servizi">Makebit Services</l></h2>
+				<p><l en="Experience, applied to your project."
+					it="Esperienza applicata al tuo progetto."></l></p>
+			</div>
+			<div class="grid grid--services">
+				<div class="service-card reveal" style="--c:#22b8cf">
+					<span class="service-card__icon" style="--c:#22b8cf"><i class="fa-solid fa-cloud"></i></span>
+					<h3><l en="Cloud Applications" it="Applicazioni Cloud"></l></h3>
+					<p><l en="Scalable web, cloud applications, microservices, APIs and backends engineered for performance and reliability. From architecture to deployment and monitoring, server-side systems built to grow with your product."
+						it="Applicazioni web e cloud scalabili, microservizi, APIs e backend progettati per prestazioni e affidabilità. Dall'architettura al deploy e al monitoraggio, sistemi server-side costruiti per crescere con il tuo prodotto."></l></p>
+					<div class="chips" aria-hidden="true">
+						<span class="chip">APIs</span>
+						<span class="chip">backend</span>
+						<span class="chip">microservices</span>
+					</div>
+				</div>
+				<div class="service-card reveal" style="--c:#FF6961">
+					<span class="service-card__icon" style="--c:#FF6961"><i class="fa-solid fa-code"></i></span>
+					<h3><l en="Websites" it="Siti Web"></l></h3>
+					<p><l en="Responsive websites built with modern HTML, CSS and JavaScript, plus WordPress sites with custom themes and plugins. Fast, accessible and easy to update, designed to look great on every screen and to be found on search engines."
+						it="Siti web responsive realizzati con HTML, CSS e JavaScript moderni, oltre a siti WordPress con temi e plugin su misura. Veloci, accessibili e facili da aggiornare, pensati per rendere su ogni schermo e farsi trovare sui motori di ricerca."></l></p>
+					<div class="chips" aria-hidden="true">
+						<span class="chip">development</span>
+						<span class="chip">responsive</span>
+						<span class="chip">custom</span>
+					</div>
+				</div>
+				<div class="service-card reveal" style="--c:#F0A500">
+					<span class="service-card__icon" style="--c:#F0A500"><i class="fa-solid fa-mobile-screen-button"></i></span>
+					<h3><l en="Mobile &amp; Desktop Apps" it="App Mobile &amp; Desktop"></l></h3>
+					<p><l en="Native Android apps, cross-platform mobile solutions and desktop applications, from concept and design to publishing. The whole lifecycle is covered: UX, development, store release and the updates that keep your app alive."
+						it="App native Android, soluzioni mobile multipiattaforma e applicazioni desktop, dall'idea e dal design alla pubblicazione. L'intero ciclo di vita è coperto: UX, sviluppo, rilascio sugli store e gli aggiornamenti che tengono viva la tua app."></l></p>
+					<div class="chips" aria-hidden="true">
+						<span class="chip">Android</span>
+						<span class="chip">cross-platform</span>
+						<span class="chip">desktop</span>
+					</div>
+				</div>
+				<div class="service-card reveal" style="--c:#f06595">
+					<span class="service-card__icon" style="--c:#f06595"><i class="fa-solid fa-palette"></i></span>
+					<h3><l en="Design &amp; Video" it="Grafica &amp; Video"></l></h3>
+					<p><l en="Branding, logo and graphic design, promotional videos and visual content that make your project stand out. A consistent identity across your site, app and social channels, from the first sketch to the final cut."
+						it="Branding, logo e progettazione grafica, video promozionali e contenuti visivi che valorizzano il tuo progetto. Un'identità coerente su sito, app e canali social, dal primo schizzo al montaggio finale."></l></p>
+					<div class="chips" aria-hidden="true">
+						<span class="chip">branding</span>
+						<span class="chip">logo</span>
+						<span class="chip">video</span>
+					</div>
+				</div>
+				<div class="service-card reveal" style="--c:#51cf66">
+					<span class="service-card__icon" style="--c:#51cf66"><i class="fa-solid fa-headset"></i></span>
+					<h3><l en="Consulting &amp; Support" it="Consulenza &amp; Assistenza"></l></h3>
+					<p><l en="Tailored technical consulting and ongoing support to keep your products running smoothly. Code reviews, architecture audits, fixes for what breaks and guidance to make the right technical choices before they get expensive."
+						it="Consulenza tecnica su misura e assistenza continuativa per mantenere i tuoi prodotti sempre efficienti. Revisione del codice, verifica delle architetture, riparazione di ciò che si rompe e supporto per fare le scelte giuste prima che diventino costose."></l></p>
+					<div class="chips" aria-hidden="true">
+						<span class="chip">consulting</span>
+						<span class="chip">maintenance</span>
+						<span class="chip">monitoring</span>
+					</div>
+				</div>
+				<div class="service-card reveal" style="--c:#6366f1">
+					<span class="service-card__icon" style="--c:#6366f1"><i class="fa-solid fa-brain"></i></span>
+					<h3><l en="AI Solutions" it="Soluzioni AI"></l></h3>
+					<p><l en="Makebit integrates AI and LLMs into products and uses AI in its own workflow to deliver faster. What makes it work is the experience behind it: knowing what to build, how to architect it and when the output is truly production-ready."
+						it="Makebit integra AI e LLM nei prodotti e usa l'AI nel proprio flusso di lavoro per consegnare più in fretta. A fare la differenza è l'esperienza: sapere cosa costruire, come architettarlo e quando il risultato è davvero pronto per la produzione."></l></p>
+					<div class="chips" aria-hidden="true">
+						<span class="chip">RAG</span>
+						<span class="chip">chatbots</span>
+						<span class="chip">automation</span>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<!-- Workflow -->
+	<section id="workflow" class="section section--alt">
+		<div class="container">
+			<div class="section-head reveal">
+				<span class="eyebrow"><l en="Workflow" it="Workflow"></l></span>
+				<h2><l en="On your side" it="Al tuo fianco">On your side</l></h2>
+				<p><l en="Makebit builds open source software by passion and client projects by profession<br>Every project starts from your needs: listening first, then the right solution, found together."
+					it="Makebit costruisce software open source per passione e progetti per i clienti per professione<br>Ogni progetto parte dalle tue esigenze: prima l'ascolto, poi la soluzione giusta, trovata insieme."></l></p>
+			</div>
+			<div class="pillars">
+				<div class="pillar reveal">
+					<span class="pillar__num">01 /</span>
+					<h3><l en="Listening comes first" it="Prima di tutto, l'ascolto"></l></h3>
+					<p><l en="Every project starts with a conversation: the time to understand your goals, your users and your budget before a single line of code is written."
+						it="Ogni progetto inizia con una conversazione: il tempo di capire i tuoi obiettivi, i tuoi utenti e il tuo budget prima che venga scritta una sola riga di codice."></l></p>
+				</div>
+				<div class="pillar reveal">
+					<span class="pillar__num">02 /</span>
+					<h3><l en="Direct, no middlemen" it="Diretto, senza intermediari"></l></h3>
+					<p><l en="You always talk directly with who writes the code. Options are proposed, trade-offs explained in plain words, and the solution takes shape with you, step by step."
+						it="Parli sempre direttamente con chi scrive il codice. Vengono proposte opzioni, spiegati pro e contro con parole semplici, e la soluzione prende forma con te, passo dopo passo."></l></p>
+				</div>
+				<div class="pillar reveal">
+					<span class="pillar__num">03 /</span>
+					<h3><l en="Open source experience" it="Esperienza open source"></l></h3>
+					<p><l en="Years of shipped projects across multiple domains. That same experience goes into everything delivered: reviewed, tested and reliable."
+						it="Anni di progetti in diversi settori. La stessa esperienza entra in tutto ciò che viene consegnato: verificato, testato e affidabile."></l></p>
+				</div>
+			</div>
+			<div class="stats">
+				<div class="stat reveal">
+					<span class="stat__num" data-target="2017">2017</span>
+					<span class="stat__label"><l en="making bits since" it="making bits since"></l></span>
+				</div>
+				<div class="stat reveal">
+					<span class="stat__num" data-target="20" data-suffix="+">20+</span>
+					<span class="stat__label"><l en="projects shipped" it="progetti consegnati"></l></span>
+				</div>
+				<div class="stat reveal">
+					<span class="stat__num" data-target="50" data-suffix="k+">50k+</span>
+					<span class="stat__label"><l en="app installs" it="installazioni delle app"></l></span>
+				</div>
+			</div>
+			<p class="location-line reveal"><i class="fa-solid fa-location-dot"></i> <l en="based in Verbania, Italy - working with clients everywhere"
+				it="con base a Verbania - al lavoro con clienti ovunque"></l></p>
+		</div>
+	</section>
+
+	<!-- Portfolio -->
+	<section id="portfolio" class="section">
+		<div class="container">
+			<div class="section-head reveal">
+				<span class="eyebrow"><l en="Portfolio" it="Portfolio"></l></span>
+				<h2><l en="The built bits" it="I bit costruiti">The built bits</l></h2>
+				<p><l en="A selection of open source projects, client websites, apps, bots and tools." it="Una selezione di progetti open source, siti per clienti, app, bot e strumenti."></l></p>
+			</div>
+
+			<div class="grid grid--portfolio">
+				<article class="work-card reveal" style="--c:#a02300">
+					<a class="work-card__media" href="http://www.archinetwork.it/" target="_blank" rel="noopener">
+						<img loading="lazy" decoding="async" src="/assets/img/works/archinetwork-site.png" alt="archinetwork.it">
+					</a>
+					<div class="work-card__body">
+						<div class="work-card__tags">
+							<span class="work-card__tag">Website</span>
+							<span class="work-card__tag work-card__tag--product">Product</span>
+						</div>
+						<h3 class="work-card__title"><a class="work-card__title-link" href="http://www.archinetwork.it/" target="_blank" rel="noopener">archinetwork.it</a></h3>
+						<ul>
+							<li>site developed from a custom design</li>
+							<li>wordpress site, personalized on the client needs</li>
+							<li>custom plugins to manage articles and magazines</li>
+						</ul>
+					</div>
+				</article>
+
+				<article class="work-card reveal" style="--c:#7c3aed">
+					<a class="work-card__media" href="https://github.com/makebit/obsidian-readeck-importer" target="_blank" rel="noopener">
+						<img loading="lazy" decoding="async" src="/assets/img/works/obsidian-readeck-importer.png" alt="Readeck Importer">
+					</a>
+					<div class="work-card__body">
+						<div class="work-card__tags">
+							<span class="work-card__tag">Obsidian Plugin</span>
+							<span class="work-card__tag work-card__tag--oss">Open source</span>
+						</div>
+						<h3 class="work-card__title"><a class="work-card__title-link" href="https://github.com/makebit/obsidian-readeck-importer" target="_blank" rel="noopener">Readeck Importer</a></h3>
+						<ul>
+							<li>Obsidian plugin to import bookmarks from a Readeck instance into the vault</li>
+							<li>imports article text, images and annotations / highlights, with automatic metadata</li>
+							<li>written in TypeScript on the Obsidian plugin API</li>
+						</ul>
+					</div>
+				</article>
+
+				<article class="work-card reveal" style="--c:#0ea5e9">
+					<a class="work-card__media" href="https://github.com/NicholasRasi/OptiBonds" target="_blank" rel="noopener">
+						<img loading="lazy" decoding="async" src="/assets/img/works/optibonds.png" alt="OptiBonds">
+					</a>
+					<div class="work-card__body">
+						<div class="work-card__tags">
+							<span class="work-card__tag">Finance Tool</span>
+							<span class="work-card__tag work-card__tag--oss">Open source</span>
+						</div>
+						<h3 class="work-card__title"><a class="work-card__title-link" href="https://github.com/NicholasRasi/OptiBonds" target="_blank" rel="noopener">OptiBonds</a></h3>
+						<ul>
+							<li>builds, optimizes and visualizes bond ladders to spread capital across bonds maturing at different times</li>
+							<li>multiple strategies (max earnings, max YTM, max return, capital efficiency), diversification limits and filtering by rating, currency and volume</li>
+							<li>written in Python, YAML-based configuration</li>
+						</ul>
+					</div>
+				</article>
+
+				<article class="work-card work-card--lg reveal" style="--c:#84cc16">
+					<a class="work-card__media" href="#" target="_blank" rel="noopener">
+						<img loading="lazy" decoding="async" src="/assets/img/works/flipboook.png" alt="Flipboook">
+					</a>
+					<div class="work-card__body">
+						<div class="work-card__tags">
+							<span class="work-card__tag">Web App</span>
+							<span class="work-card__tag work-card__tag--product">Product</span>
+						</div>
+						<h3 class="work-card__title"><a class="work-card__title-link" href="#" target="_blank" rel="noopener">Flipboook</a></h3>
+						<ul>
+							<li>web app to create flipbooks from PDF files</li>
+							<li>uploads a PDF, processes it and generates a shareable link to the flipbook</li>
+							<li>customized on the client needs</li>
+							<li>written in ReactJS, hosted on VPS</li>
+							<li>JS backend for handling API requests and document processing</li>
+						</ul>
+					</div>
+				</article>
+
+
+				<article class="work-card reveal" style="--c:#84cc16">
+					<a class="work-card__media" href="https://github.com/makebit/artgen-on-modal" target="_blank" rel="noopener">
+						<img loading="lazy" decoding="async" src="/assets/img/works/artgen-on-modal.png" alt="ArtGen on Modal">
+					</a>
+					<div class="work-card__body">
+						<div class="work-card__tags">
+							<span class="work-card__tag">AI Tool</span>
+							<span class="work-card__tag work-card__tag--oss">Open source</span>
+						</div>
+						<h3 class="work-card__title"><a class="work-card__title-link" href="https://github.com/makebit/artgen-on-modal" target="_blank" rel="noopener">ArtGen on Modal</a></h3>
+						<ul>
+							<li>runs ComfyUI and AUTOMATIC1111 Stable Diffusion WebUI on Modal&#39;s serverless GPUs</li>
+							<li>automatic download and caching of checkpoints, LoRA, VAE and ControlNet from Hugging Face and CivitAI</li>
+							<li>persistent Modal volumes, Deforum extension for animations</li>
+							<li>written in Python, open source code and deployment scripts</li>
+						</ul>
+					</div>
+				</article>
+
+				<article class="work-card reveal" style="--c:#868e96">
+					<a class="work-card__media" href="#" target="_blank" rel="noopener">
+						<img loading="lazy" decoding="async" src="/assets/img/works/ImagesResizer.jpg" alt="Images Resizer">
+					</a>
+					<div class="work-card__body">
+						<div class="work-card__tags">
+							<span class="work-card__tag">Desktop App</span>
+							<span class="work-card__tag work-card__tag--product">Product</span>
+						</div>
+						<h3 class="work-card__title"><a class="work-card__title-link" href="#" target="_blank" rel="noopener">Images Resizer</a></h3>
+						<ul>
+							<li>an images resizer made with NW.js</li>
+							<li>deployable on all OSs</li>
+						</ul>
+					</div>
+				</article>
+
+				<article class="work-card reveal" style="--c:#1da868">
+					<a class="work-card__media" href="https://github.com/makebit/KomootBot" target="_blank" rel="noopener">
+						<img loading="lazy" decoding="async" src="/assets/img/works/telegram.png" alt="KomootBot">
+					</a>
+					<div class="work-card__body">
+						<div class="work-card__tags">
+							<span class="work-card__tag">Telegram Bot</span>
+							<span class="work-card__tag work-card__tag--oss">Open source</span>
+						</div>
+						<h3 class="work-card__title"><a class="work-card__title-link" href="https://github.com/makebit/KomootBot" target="_blank" rel="noopener">KomootBot</a></h3>
+						<ul>
+							<li>downloads any Komoot tour as a GPX file, working with both public and private tours</li>
+							<li>share a tour link with the bot and get the GPX back</li>
+							<li>written in Python</li>
+						</ul>
+					</div>
+				</article>
+
+
+
+
+				<article class="work-card reveal" style="--c:#0aaa00">
+					<a class="work-card__media" href="http://www.contractnetwork.it/" target="_blank" rel="noopener">
+						<img loading="lazy" decoding="async" src="/assets/img/works/contractnetwork-site.png" alt="contractnetwork.it">
+					</a>
+					<div class="work-card__body">
+						<div class="work-card__tags">
+							<span class="work-card__tag">Website</span>
+							<span class="work-card__tag work-card__tag--product">Product</span>
+						</div>
+						<h3 class="work-card__title"><a class="work-card__title-link" href="http://www.contractnetwork.it/" target="_blank" rel="noopener">contractnetwork.it</a></h3>
+						<ul>
+							<li>site developed from a given custom design</li>
+							<li>wordpress site, personalized on the client needs</li>
+							<li>custom plugins to manage articles and magazines</li>
+							<li>connection with the newsletter service</li>
+						</ul>
+					</div>
+				</article>
+
+				<article class="work-card reveal" style="--c:#000ff0">
+					<a class="work-card__media" href="http://ceciliabaroni.it/" target="_blank" rel="noopener">
+						<img loading="lazy" decoding="async" src="/assets/img/works/ceciliabaroni-site.jpg" alt="ceciliabaroni.it">
+					</a>
+					<div class="work-card__body">
+						<div class="work-card__tags">
+							<span class="work-card__tag">Website</span>
+						</div>
+						<h3 class="work-card__title"><a class="work-card__title-link" href="http://ceciliabaroni.it/" target="_blank" rel="noopener">ceciliabaroni.it</a></h3>
+						<ul>
+							<li>portfolio site</li>
+							<li>personalized on the client needs</li>
+						</ul>
+					</div>
+				</article>
+
+				<article class="work-card reveal" style="--c:#f38a2c">
+					<a class="work-card__media" href="https://github.com/makebit/FilterssApp" target="_blank" rel="noopener">
+						<img loading="lazy" decoding="async" src="/assets/img/works/filterss.jpg" alt="Filterss">
+					</a>
+					<div class="work-card__body">
+						<div class="work-card__tags">
+							<span class="work-card__tag">Android App</span>
+							<span class="work-card__tag work-card__tag--oss">Open source</span>
+						</div>
+						<h3 class="work-card__title"><a class="work-card__title-link" href="https://github.com/makebit/FilterssApp" target="_blank" rel="noopener">Filterss</a></h3>
+						<ul>
+							<li>native Android app to read RSS feeds with filtering, rating, online / offline mode</li>
+							<li>development of the app code and API backend</li>
+							<li>app icon, design and showcase video</li>
+							<li>API written with ExpressJS (NodeJS), hosted on VPS</li>
+							<li>not more maintained</li>
+						</ul>
+					</div>
+				</article>
+
+				<article class="work-card reveal" style="--c:#d6336c">
+					<a class="work-card__media" href="https://telegram.me/HashtagsGeneratorBot" target="_blank" rel="noopener">
+						<img loading="lazy" decoding="async" src="/assets/img/works/telegram.png" alt="Hashtags Generator Bot">
+					</a>
+					<div class="work-card__body">
+						<div class="work-card__tags">
+							<span class="work-card__tag">Telegram Bot</span>
+							<span class="work-card__tag work-card__tag--oss">Open source</span>
+						</div>
+						<h3 class="work-card__title"><a class="work-card__title-link" href="https://telegram.me/HashtagsGeneratorBot" target="_blank" rel="noopener">Hashtags Generator Bot</a></h3>
+						<ul>
+							<li>generates the most popular hashtags given a list of words (displaypurposes.com)</li>
+							<li>written in Python, hosted on Heroku</li>
+							<li><a href="https://telegram.me/HashtagsGeneratorBot">try the bot</a> · <a href="https://github.com/makebit/HashtagsGeneratorBot">open source</a></li>
+						</ul>
+					</div>
+				</article>
+
+				<article class="work-card reveal" style="--c:#000000">
+					<a class="work-card__media" href="http://www.guestmagazine.it/" target="_blank" rel="noopener">
+						<img loading="lazy" decoding="async" src="/assets/img/works/guestmagazine-site.png" alt="guestmagazine.it">
+					</a>
+					<div class="work-card__body">
+						<div class="work-card__tags">
+							<span class="work-card__tag">Website</span>
+							<span class="work-card__tag work-card__tag--product">Product</span>
+						</div>
+						<h3 class="work-card__title"><a class="work-card__title-link" href="http://www.guestmagazine.it/" target="_blank" rel="noopener">guestmagazine.it</a></h3>
+						<ul>
+							<li>site developed from a given custom design</li>
+							<li>wordpress site, personalized on the client needs</li>
+							<li>custom plugins to manage articles and magazines</li>
+							<li>connection with the newsletter service</li>
+						</ul>
+					</div>
+				</article>
+
+				<article class="work-card reveal" style="--c:#2f9e44">
+					<a class="work-card__media" href="https://telegram.me/AreeCamperECampeggiBot" target="_blank" rel="noopener">
+						<img loading="lazy" decoding="async" src="/assets/img/works/telegram.png" alt="AreeCamper&Campeggi Bot">
+					</a>
+					<div class="work-card__body">
+						<div class="work-card__tags">
+							<span class="work-card__tag">Telegram Bot</span>
+						</div>
+						<h3 class="work-card__title"><a class="work-card__title-link" href="https://telegram.me/AreeCamperECampeggiBot" target="_blank" rel="noopener">AreeCamper&amp;Campeggi</a></h3>
+						<ul>
+							<li>finds parking areas and camping for campers and RV vehicles</li>
+							<li>written in Python, hosted on Heroku</li>
+							<li><a href="https://telegram.me/AreeCamperECampeggiBot">try the bot</a></li>
+						</ul>
+					</div>
+				</article>
+
+				<article class="work-card reveal" style="--c:#373189">
+					<a class="work-card__media" href="http://vagamondo.com" target="_blank" rel="noopener">
+						<img loading="lazy" decoding="async" src="/assets/img/works/vagamondo-site.jpg" alt="vagamondo.com">
+					</a>
+					<div class="work-card__body">
+						<div class="work-card__tags">
+							<span class="work-card__tag">Website</span>
+							<span class="work-card__tag work-card__tag--product">Product</span>
+						</div>
+						<h3 class="work-card__title"><a class="work-card__title-link" href="http://vagamondo.com" target="_blank" rel="noopener">vagamondo.com</a></h3>
+						<ul>
+							<li>developed and personalized on the client needs</li>
+							<li>wordpress site, custom theme &amp; plugins</li>
+							<li>custom code to compute the rent price, multilanguage</li>
+							<li>not more maintained</li>
+						</ul>
+					</div>
+				</article>
+
+				<article class="work-card reveal" style="--c:#373189">
+					<a class="work-card__media" href="http://vagamondo.com" target="_blank" rel="noopener">
+						<img loading="lazy" decoding="async" src="/assets/img/works/adven.png" alt="adven.it">
+					</a>
+					<div class="work-card__body">
+						<div class="work-card__tags">
+							<span class="work-card__tag">Website</span>
+						</div>
+						<h3 class="work-card__title"><a class="work-card__title-link" href="http://vagamondo.com" target="_blank" rel="noopener">adven.it</a></h3>
+						<ul>
+							<li>site developed and personalized on the client needs</li>
+							<li>wordpress site</li>
+							<li>not more maintained</li>
+						</ul>
+					</div>
+				</article>
+
+				<article class="work-card reveal" style="--c:#fdca00">
+					<a class="work-card__media" href="https://play.google.com/store/apps/details?id=com.makebitapps.canzoniere" target="_blank" rel="noopener">
+						<img loading="lazy" decoding="async" src="/assets/img/works/canzoniere.jpg" alt="Canzoniere">
+					</a>
+					<div class="work-card__body">
+						<div class="work-card__tags">
+							<span class="work-card__tag">Android App</span>
+							<span class="work-card__tag work-card__tag--product">Product</span>
+						</div>
+						<h3 class="work-card__title"><a class="work-card__title-link" href="https://play.google.com/store/apps/details?id=com.makebitapps.canzoniere" target="_blank" rel="noopener">Canzoniere</a></h3>
+						<ul>
+							<li>more than 50.000 installations</li>
+							<li>Ionic application (cross platform)</li>
+						</ul>
+					</div>
+				</article>
+
+				<article class="work-card reveal" style="--c:#da2723">
+					<a class="work-card__media" href="#" target="_blank" rel="noopener">
+						<img loading="lazy" decoding="async" src="/assets/img/works/hotelmag.it.jpg" alt="hotelmag.it">
+					</a>
+					<div class="work-card__body">
+						<div class="work-card__tags">
+							<span class="work-card__tag">Website</span>
+						</div>
+						<h3 class="work-card__title">hotelmag.it</h3>
+						<ul>
+							<li>development of the site and the template</li>
+							<li>wordpress site, custom theme &amp; plugins</li>
+							<li>not more maintained</li>
+						</ul>
+					</div>
+				</article>
+
+				<article class="work-card reveal" style="--c:#2f9e44">
+					<a class="work-card__media" href="https://github.com/makebit/GenM3U" target="_blank" rel="noopener">
+						<img loading="lazy" decoding="async" src="/assets/img/works/genm3u.png" alt="GenM3U">
+					</a>
+					<div class="work-card__body">
+						<div class="work-card__tags">
+							<span class="work-card__tag">Web App</span>
+							<span class="work-card__tag work-card__tag--oss">Open source</span>
+						</div>
+						<h3 class="work-card__title"><a class="work-card__title-link" href="https://github.com/makebit/GenM3U" target="_blank" rel="noopener">GenM3U</a></h3>
+						<ul>
+							<li>M3U playlist builder to manage IPTV channel lists: create, check, import, export and share</li>
+							<li>Python Flask server + AngularJS client</li>
+							<li><a href="https://github.com/makebit/GenM3U">open source</a></li>
+						</ul>
+					</div>
+				</article>
+
+				<article class="work-card reveal" style="--c:#2f9e44">
+					<a class="work-card__media" href="https://play.google.com/store/apps/details?id=com.makebitapps.remotecontrolforslides" target="_blank" rel="noopener">
+						<img loading="lazy" decoding="async" src="/assets/img/works/telecomando-presentazioni.jpg" alt="Telecomando Presentazioni">
+					</a>
+					<div class="work-card__body">
+						<div class="work-card__tags">
+							<span class="work-card__tag">Android App</span>
+						</div>
+						<h3 class="work-card__title"><a class="work-card__title-link" href="https://play.google.com/store/apps/details?id=com.makebitapps.remotecontrolforslides" target="_blank" rel="noopener">Telecomando Presentazioni</a></h3>
+						<ul>
+							<li>Android app used as a remote controller for slides</li>
+							<li>multiplatform Java server developed</li>
+							<li><a href="https://makeb.it/static/telecomando-presentazioni/en/">tutorial</a></li>
+						</ul>
+					</div>
+				</article>
+
+				<article class="work-card reveal" style="--c:#da2723">
+					<a class="work-card__media" href="#" target="_blank" rel="noopener">
+						<img loading="lazy" decoding="async" src="/assets/img/works/youtubetomp3.jpg" alt="Youtube to Mp3">
+					</a>
+					<div class="work-card__body">
+						<div class="work-card__tags">
+							<span class="work-card__tag">Android App</span>
+							<span class="work-card__tag work-card__tag--oss">Open source</span>
+						</div>
+						<h3 class="work-card__title">Youtube to Mp3</h3>
+						<ul>
+							<li>Android native application</li>
+							<li>works with yt-download.org</li>
+							<li><a href="https://github.com/makebit/YoutubeToMp3">open source</a></li>
+						</ul>
+					</div>
+				</article>
+
+				<article class="work-card reveal" style="--c:#373189">
+					<a class="work-card__media" href="http://www.vagamondo.com/preventivo/" target="_blank" rel="noopener">
+						<img loading="lazy" decoding="async" src="/assets/img/works/vagamondo.jpg" alt="Vagamondo Preventivo">
+					</a>
+					<div class="work-card__body">
+						<div class="work-card__tags">
+							<span class="work-card__tag">Web App</span>
+						</div>
+						<h3 class="work-card__title"><a class="work-card__title-link" href="http://www.vagamondo.com/preventivo/" target="_blank" rel="noopener">Vagamondo Preventivo</a></h3>
+						<ul>
+							<li>online application used to compute rental prices</li>
+							<li>not more maintained</li>
+						</ul>
+					</div>
+				</article>
+
+				<article class="work-card reveal" style="--c:#079dd8">
+					<a class="work-card__media" href="#" target="_blank" rel="noopener">
+						<img loading="lazy" decoding="async" src="/assets/img/works/f-alldebrid.jpg" alt="F-AllDebrid">
+					</a>
+					<div class="work-card__body">
+						<div class="work-card__tags">
+							<span class="work-card__tag">Firefox Plugin</span>
+						</div>
+						<h3 class="work-card__title">F-AllDebrid</h3>
+						<ul>
+							<li>Firefox plugin to use the AllDebrid service</li>
+							<li>not more maintained</li>
+						</ul>
+					</div>
+				</article>
+
+				<article class="work-card reveal" style="--c:#da2723">
+					<a class="work-card__media" href="#" target="_blank" rel="noopener">
+						<img loading="lazy" decoding="async" src="/assets/img/works/sooftware.it.jpg" alt="sooftware.it">
+					</a>
+					<div class="work-card__body">
+						<div class="work-card__tags">
+							<span class="work-card__tag">Website</span>
+						</div>
+						<h3 class="work-card__title">sooftware.it</h3>
+						<ul>
+							<li>wordpress blog about software: theory, concepts, strategies and tricks</li>
+							<li>not more maintained</li>
+						</ul>
+					</div>
+				</article>
+
+				<article class="work-card reveal" style="--c:#079dd8">
+					<a class="work-card__media" href="#" target="_blank" rel="noopener">
+						<img loading="lazy" decoding="async" src="/assets/img/portfolio-4.jpg" alt="Amenoblues">
+					</a>
+					<div class="work-card__body">
+						<div class="work-card__tags">
+							<span class="work-card__tag">Website</span>
+						</div>
+						<h3 class="work-card__title">Amenoblues</h3>
+						<ul>
+							<li>site developed from a standard template</li>
+							<li>wordpress site, customized theme</li>
+						</ul>
+					</div>
+				</article>
+
+				<article class="work-card reveal" style="--c:#1c7ed6">
+					<a class="work-card__media" href="https://github.com/makebit/Neopixel-Ring-LED-Sequences-and-Animations-Maker" target="_blank" rel="noopener">
+						<img loading="lazy" decoding="async" src="/assets/img/works/ledsy.jpg" alt="LEDSY">
+					</a>
+					<div class="work-card__body">
+						<div class="work-card__tags">
+							<span class="work-card__tag">Javascript App</span>
+							<span class="work-card__tag work-card__tag--oss">Open source</span>
+						</div>
+						<h3 class="work-card__title"><a class="work-card__title-link" href="https://github.com/makebit/Neopixel-Ring-LED-Sequences-and-Animations-Maker" target="_blank" rel="noopener">LEDSY</a></h3>
+						<ul>
+							<li>jQuery application used to create LED sequences &amp; animations, used with Arduino</li>
+							<li><a href="https://github.com/makebit/Neopixel-Ring-LED-Sequences-and-Animations-Maker">open source</a></li>
+						</ul>
+					</div>
+				</article>
+
+			</div>
+
+			<div class="portfolio-more">
+				<a href="https://github.com/makebit" class="btn btn-white" target="_blank" rel="noopener">
+					<i class="fa-brands fa-github"></i> <l en="More on GitHub" it="Altro su GitHub"></l>
+				</a>
+			</div>
+		</div>
+	</section>
+
+	<!-- Contact form -->
+	<section id="callout" class="section section--alt">
+		<div class="container">
+			<form role="form" id="form-mail" class="contact-card reveal">
+				<h3><l en="Get in touch" it="Mettiti in contatto"></l></h3>
+				<p class="sub"><l en="Write for any information or a quote" it="Scrivi per qualsiasi informazione o preventivo"></l></p>
+
+				<div class="alert alert-success" id="mail-success" style="display: none">
+					<l en="<strong>Message sent.</strong> You will get a reply in a moment!"
+						it="<strong>Messaggio inviato.</strong> Riceverai una risposta in un attimo!"></l>
+				</div>
+				<div class="alert alert-danger" id="mail-error" style="display: none">
+					<l en="<strong>Cannot send.</strong> Please check that mail, subject and text are present."
+						it="<strong>Impossibile inviare.</strong> Controlla che mail, soggetto e testo siano presenti."></l>
+				</div>
+				<div class="alert alert-danger" id="mail-error-net" style="display: none">
+					<l en="<strong>Something went wrong.</strong> Please write directly to: makebitcake@gmail.com"
+						it="<strong>Qualcosa è andato storto.</strong> Scrivi direttamente a: makebitcake@gmail.com"></l>
+				</div>
+
+				<div class="field">
+					<input type="text" id="name" name="name" en="Name" it="Nome">
+				</div>
+				<div class="field">
+					<input type="email" id="email" name="email" en="Email" it="Email" required>
+				</div>
+				<div class="field">
+					<input type="text" id="subject" name="subject" en="Subject" it="Soggetto" required>
+				</div>
+				<div class="field">
+					<textarea id="message" name="message" en="Message" it="Messaggio" rows="7"></textarea>
+				</div>
+
+				<button type="button" id="send-mail" name="submit" class="btn btn-primary">
+					<i class="fa-regular fa-paper-plane"></i> <l en="Send" it="Invia"></l>
+				</button>
+
+				<p class="alt-mail">// <l en="or write to" it="oppure scrivi a"></l> <a href="mailto:makebitcake@gmail.com">makebitcake@gmail.com</a></p>
+			</form>
+		</div>
+	</section>
+
+	<!-- Right Hemisphere -->
+	<section id="right-hemisphere" class="section section--dark">
+		<div class="container banner reveal">
+			<a href="https://righthemisphere.it/" target="_blank" rel="noopener">
+				<img class="banner__logo" loading="lazy" decoding="async" src="/assets/img/Right_Hemipshere_Logo.jpg" alt="Right Hemisphere">
+			</a>
+			<h2><l en="Need video or photo for your website?" it="Ti serve un video o delle foto per il tuo sito?"></l></h2>
+			<p><l en="Together with Right Hemisphere, Makebit also offers photo and video production - check it out!" it="Insieme a Right Hemisphere, Makebit offre anche la realizzazione di video e foto!"></l></p>
+			<a href="https://righthemisphere.it/" class="btn btn-white" target="_blank" rel="noopener">
+				<i class="fa-solid fa-circle-info"></i> <l en="More" it="Info"></l>
+			</a>
+		</div>
+	</section>
+
+	<!-- Call to action -->
+	<section id="call-to-action" class="section">
+		<div class="container banner reveal">
+			<span class="eyebrow"><l en="Let's build together" it="Costruiamo insieme"></l></span>
+			<h2><l en="Open to collaborations"
+				it="Collaborazioni"></l></h2>
+			<p><l en="Got an idea, a side project, or a startup looking for a technical hand? I'm open to teaming up with founders, creators and other makers. Let's turn your idea into something real, together."
+				it="Hai un'idea, un progetto o una startup che cerca una mano tecnica? Sono disponibile a fare squadra con founder, creativi e altri maker. Trasformiamola in qualcosa di reale insieme."></l></p>
+
+			<ul class="banner__chips">
+				<li><i class="fa-solid fa-handshake"></i> <l en="Partnerships" it="Partnership"></l></li>
+				<li><i class="fa-solid fa-rocket"></i> <l en="Startups" it="Startup"></l></li>
+				<li><i class="fa-brands fa-osi"></i> <l en="Open source" it="Open source"></l></li>
+				<li><i class="fa-solid fa-lightbulb"></i> <l en="Side projects" it="Progetti collaterali"></l></li>
+			</ul>
+
+			<div class="banner__cta">
+				<a href="mailto:makebitcake@gmail.com?subject=Let's%20build%20something%20together" class="btn btn-primary">
+					<i class="fa-regular fa-envelope"></i> <l en="Let's talk" it="Parliamone"></l>
+				</a>
+			</div>
+		</div>
+	</section>
+
+	<!-- Map -->
+	<section id="map" class="map">
+		<iframe title="Map — Verbania, Italy" referrerpolicy="no-referrer-when-downgrade"
+			src="https://www.google.com/maps/embed?origin=mfe&pb=!1m3!2m1!1sVerbania,+Italia!6i11"></iframe>
+	</section>
+
+	<!-- Footer -->
+	<footer id="contact" class="footer">
+		<div class="container">
+			<h4>makebit</h4>
+			<div class="footer__email">
+				<i class="fa-regular fa-envelope"></i>
+				<a href="mailto:makebitcake@gmail.com">makebitcake@gmail.com</a>
+			</div>
+			<div class="footer__location">
+				<i class="fa-solid fa-location-dot"></i>
+				<span><l en="Verbania, Italy" it="Verbania, Italia"></l></span>
+			</div>
+			<p class="footer__copy">EOF</p>
+		</div>
+	</footer>
+
+	<a id="to-top" href="#top" class="btn" aria-label="Back to top"><i class="fa-solid fa-chevron-up"></i></a>
+
+	<script src="/js/main.js"></script>
+</body>
+
+</html>
